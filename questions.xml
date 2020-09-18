@@ -1,0 +1,78 @@
+<!-- Venn Diagram Question Bank  -->
+<!-- Copyright 2016  -->
+<!-- INSTRUCTIONS
+      Edit this file to create your own question templates for the Kickstart Venn Diagram Generator
+      The structure of the XML document is:
+
+      In order to use the following variables in the question text, nest the variable name inside '####'
+      Example: The universal set is ##UniversalSet##
+
+      The following values are able to be used in the question text:
+
+      - Universal Set & Individual Sections -
+      UniversalSet
+      A_Only              B_Only              C_Only
+      A_and_B_not_C       A_and_C_not_B       B_and_C_not_A
+      A_and_B_and_C       not_A_or_B_or_C
+                              
+      - Whole Circles -
+      A_Whole             B_Whole             C_Whole
+      A_or_B_or_C
+
+      - Two Circle Intersections -
+      A_and_B             A_and_C             B_and_C
+
+      - Quantity Based -
+      ExactlyOne          AtLeastOne          AtMostOne
+      ExactlyTwo          AtLeastTwo          AtMostTwo
+
+ -->
+<!-- Template for New Question Entry
+   <QUESTION>
+      <LABEL_SET_A></LABEL_SET_A>
+      <LABEL_SET_B></LABEL_SET_B>
+      <LABEL_SET_C></LABEL_SET_C>
+      <QUESTION_TEXT></QUESTION_TEXT>
+   </QUESTION>
+-->
+
+<QUESTION_BANK>
+   <QUESTION>
+      <LABEL_SET_A>Facebook</LABEL_SET_A>
+      <LABEL_SET_B>Twitter</LABEL_SET_B>
+      <LABEL_SET_C>Newsletter</LABEL_SET_C>
+      <QUESTION_TEXT>
+         ##A_or_B_or_C## people are following Kickstart Learning Strategies.  ##A_Whole## follow on Facebook, ##B_Whole## follow on Twitter, and ##C_Whole## subscribe to the newsletter.  ##A_and_B_and_C## follow all three; however, ##not_A_or_B_or_C## do not follow.  ##A_and_C## use both Facebook and the newsletter while ##A_and_B## use Facebook and Twitter.
+      </QUESTION_TEXT>
+   </QUESTION>
+   <QUESTION>
+      <LABEL_SET_A>Windows</LABEL_SET_A>
+      <LABEL_SET_B>Linux</LABEL_SET_B>
+      <LABEL_SET_C>OSX</LABEL_SET_C>
+      <QUESTION_TEXT>College students were surveyed on their familiarity with different operating systems.  ##A_Whole## are familiar with Windows, ##B_Whole## are familiar with Linux, and ##C_Whole## are familiar with OSX.  ##AtLeastTwo## students are familiar with at least two operating systems.  ##A_and_B## are familiar with Windows and Linux, ##A_and_C## are familiar with Windows and OSX, and ##B_and_C## are familiar with Linux and OSX.  ##UniversalSet## students were surveyed in total.</QUESTION_TEXT>
+   </QUESTION>
+   <QUESTION>
+      <LABEL_SET_A>Pintrest</LABEL_SET_A>
+      <LABEL_SET_B>Imgur</LABEL_SET_B>
+      <LABEL_SET_C>Instagram</LABEL_SET_C>
+      <QUESTION_TEXT>Kickstart Learning Strategies researched which forms of social media will give them the best exposure.  ##C_Only## respondents only use Instagram, ##B_Only## respondents only use Imgur, and ##A_Only## respondents only use Pintrest.  ##A_and_B_and_C## use all three.  ##not_A_or_B_or_C## don't use any of the three.  ##A_and_C## use Pintrest and Instagram.</QUESTION_TEXT>
+   </QUESTION>
+   <QUESTION>
+      <LABEL_SET_A>Redskins</LABEL_SET_A>
+      <LABEL_SET_B>Capitols</LABEL_SET_B>
+      <LABEL_SET_C>Nationals</LABEL_SET_C>
+      <QUESTION_TEXT>Local DC residents were asked which area teams they support.  ##A_or_B_or_C## support at least one team.  ##B_Only## support only the Capitols, ##B_and_C## support the Capitols and Nationals, and ##A_and_B## support the Capitols and Redskins.  Of those who support another team in addition to the Capitols, ##A_and_B_and_C## support both.  ##C_Only## support only the Nationals, and ##A_and_C## support the Nationals and the Redskins.  ##not_A_or_B_or_C## residents do not support any of the teams.</QUESTION_TEXT>
+   </QUESTION>
+   <QUESTION>
+      <LABEL_SET_A>Rock Climbing</LABEL_SET_A>
+      <LABEL_SET_B>Ice Skating</LABEL_SET_B>
+      <LABEL_SET_C>Fitness Center</LABEL_SET_C>
+      <QUESTION_TEXT>Fiction Cruiseline offers three ways to exercise on their cruise ships.  ##A_or_B_or_C## of the ##UniversalSet## passengers participated in at least one method of exercise.  ##A_Whole## people went rock climbing, ##B_Whole## people went ice skating, and ##C_Whole## went to the fitness center.  ##A_and_B## people went rock climbing and ice skating, ##A_and_C## people went rock climbing and to the fitness center, and ##B_and_C## people went ice skating and to the fitness center.</QUESTION_TEXT>
+   </QUESTION>
+   <QUESTION>
+      <LABEL_SET_A>Mild</LABEL_SET_A>
+      <LABEL_SET_B>Medium</LABEL_SET_B>
+      <LABEL_SET_C>Bold</LABEL_SET_C>
+      <QUESTION_TEXT>##UniversalSet## people were surveyed about their coffee preferences.  ##not_A_or_B_or_C## people did not drink any coffee.  Of the ##A_Whole## people willing to drink mild roast, ##A_Only## people only drink mild, ##A_and_B_not_C## people drink mild or medium but not bold, and ##A_and_C_not_B## drink mild or bold but not medium.  ##B_Whole## people were willing to drink medium roast and ##C_Whole## were willing to drink bold roast.</QUESTION_TEXT>
+   </QUESTION>
+</QUESTION_BANK>
