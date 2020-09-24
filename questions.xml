@@ -55,7 +55,7 @@
       <LABEL_SET_A>Pintrest</LABEL_SET_A>
       <LABEL_SET_B>Imgur</LABEL_SET_B>
       <LABEL_SET_C>Instagram</LABEL_SET_C>
-      <QUESTION_TEXT>Kickstart Learning Strategies researched which forms of social media will give them the best exposure.  ##C_Only## respondents only use Instagram, ##B_Only## respondents only use Imgur, and ##A_Only## respondents only use Pintrest.  ##A_and_B_and_C## use all three.  ##not_A_or_B_or_C## don't use any of the three.  ##A_and_C## use Pintrest and Instagram.</QUESTION_TEXT>
+      <QUESTION_TEXT>Kickstart Learning Strategies researched which forms of social media will give them the best exposure by interviewing ##UniversalSet## people.  ##C_Only## respondents only use Instagram, ##B_Only## respondents only use Imgur, and ##A_Only## respondents only use Pintrest.  ##A_and_B_and_C## use all three.  ##not_A_or_B_or_C## don't use any of the three.  ##A_and_C## use Pintrest and Instagram.</QUESTION_TEXT>
    </QUESTION>
    <QUESTION>
       <LABEL_SET_A>Redskins</LABEL_SET_A>
